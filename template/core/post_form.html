@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    {% load static %} 
+
+    <link rel="stylesheet" href="{% static 'connect.css' %}">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div id="sectionlinkdin">
+        <nav class="navbar navbar-expand-lg navbar-white white  fixed-top" style="background-color:white; height:90px;">
+            <a class="navbar-brand" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                </svg>
+            </a>
+            <form class="form-inline my-2 my-lg-0 mr-auto">
+                <input class="form-control mr-sm-2" style="font-family: FontAwesome;" type="search" placeholder="&#xf002; Search" aria-label="Search">
+            </form>
+            <div class="text-center p-3 d-flex flex-column">
+                <a href="{%  url 'home' %}"><div> <button class=" lbuttonicon" onclick="display('sectionhome')" style="border: none;"><i class="fa fa-home " aria-hidden="true"></i></button>
+                    <p style="color: black;">Home</p> </div> </a>
+            </div>
+            <div class="text-center p-3">
+                <a class=" licon1" href="#sectionhome"><i class="fa fa-users" aria-hidden="true"></i></a>
+                <p>My Network</p>
+            </div>
+            <div class="text-center p-3">
+                <a class=" licon1" href=""><i class="fa fa-suitcase" aria-hidden="true"></i></a>
+                <p>Job's</p>
+            </div>
+            <div class="text-center p-3">
+                <a class=" licon1" href=""><i class="fa fa-commenting" aria-hidden="true"></i></a>
+                <p>Messaging</p>
+            </div>
+            <div class="text-center p-3">
+                <a class=" licon1" href=""><i class="fa fa-bell" aria-hidden="true"></i></a>
+                <p>Notifications</p>
+            </div>
+            <div class="text-center p-3">
+                <a class=" licon1" href=""><i class="fa fa-user-circle-o"></i></a>
+                <p>Me <i class="fa fa-caret-down" aria-hidden="true"></i></p>
+            </div>
+            <div class="lvl"></div>
+            <div class="text-center p-3 pt-5">
+                <a class=" licon1" href="{%  url 'home' %}"><i class="fa fa-th" aria-hidden="true"></i></a>
+                <a  href="{%  url 'home' %}" ><p style="color: black;">Work <i class="fa fa-caret-down" aria-hidden="true"></i></p></a>
+            </div>
+        </nav>
+
+
+
+        <div>
+            <br>
+            <br>
+            <div class="text-center mt-5" style="background-color:#f5f7f6;">
+                <div class="container-fluid">
+                    <div class="row d-flex">
+
+
+                        <div class="col-3">
+                            <div class="p-3 pt-5">
+                                <div class="shadow" style="background-color:white; border-radius:15px;">
+                                    <div class="lbackground1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="black" class="bi bi-person-circle mt-4 mb-3" viewBox="0 0 16 16">
+                                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                        </svg>
+                                    </div>
+                                    <br>
+                                    <div class="shadow-sm p-3">
+                                        <a class="lname" href="">Computer science and Engineering</a>
+                                        <hr class="lline" />
+                                        <p class="lname1">Connections</p>
+                                        <p class="lname1">Connect with alumini</p>
+                                        <hr class="lline" />
+                                        <p class="text-left" style="font-size:15px;">Access exclusive tools & insights</p>
+                                        <i class="fa fa-square-o" style="background-image:linear-gradient(#f7bd40,#f7bd40); color:#f7bd40;"></i>
+                                        <a class="text-left" href=""> Network smater and try premium for free</a>
+                                        <hr class="lline" />
+                                        <p class="text-left"><i class="fa fa-bookmark" aria-hidden="true"></i> My items</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-3">
+                                <div class="mt-3 shadow-lg text-left p-3" style="background-color:white;">
+                                    <a href="">Groups</a>
+                                    <br>
+                                    <div class="row m-auto">
+                                        <a href="">Events </a> <a class="ml-auto"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                                        <br>
+                                    </div>
+                                    <a href="">Follow Hashtags</a>
+                                    <hr class="lline" />
+                                    <a style="color:grey;">Discover More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-section col-6 mt-5 text-left shadow-lg ml-5" style="background-color:white; padding: 20px;">
+                            <form action="uploadtext" method="POST">
+                                {%csrf_token%}
+                                <fieldset class="form-group">
+                                    <h1 class="m-2"><legend class="border-bottom mb-4 "> Blog Post </legend></h1>
+                                    <input type="text" name="title" />
+                                    <input type="text" name="content" />
+                                </fieldset>
+                                <div class="form-group">
+                                    <button class="btn btn-outline-info" type="submit">Post</button>
+                                </div>
+                        
+                            </form>
+                           
+                        </div>
+                       
+
+                    
+                </div>
+            </div>
+        </div>
+
+
+</body> 

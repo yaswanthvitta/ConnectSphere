@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.maintag{
+        position: relative;
+        font-family: "Roboto";
+        font-size: 60px;
+        color: transparent;
+    }
+    
+.maintag::before{
+        content: attr(data-text);
+        position: absolute;
+        color: white;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        animation-name: colour;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        }
+    
+    @keyframes colour{
+        0% {
+            width: 0%;
+        }
+
+        75%{
+            width: 100%;
+        }
+    }
+
+
+
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+ul {
+    list-style: none;
+}
+.navbar {
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    padding:20px;
+    color:whitesmoke;
+     
+    background-color: transparent;
+}
+
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(	'https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center  ;
+
+
+} 
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.ctn {
+    padding:8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color:whitesmoke;
+    width: 130px;
+    margin-right: 20px;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    
+    
+}
+
+.dropdown a{
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.dropdown a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fc036b;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.dropdown a:hover::after{
+    width: 100%;
+}
+

@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#logo {
+    color: #177be6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.baner {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png');
+    height: 100vh;
+    background-size: cover;
+    text-align: right;
+    padding-right: 40px;
+}
+
+#option1 {
+    color: #177be6;
+    font-size: 17px;
+}
+
+#option2 {
+    color: #177be6;
+    font-size: 17px;
+}
+
+#option3 {
+    color: #177be6;
+    font-size: 17px;
+}
+
+#option4 {
+    color: #177be6;
+    font-size: 17px;
+    border-color: #177be6;
+}
+
+.head {
+    color: white;
+    font-size: 40px;
+}
+
+.caption {
+    color: white;
+    font-size: 20px;
+}
+
+.button {
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-color: #323f4b;
+    border-style: solid;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+}
+
+.about {
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+    border-radius: 40px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: justify;
+}
+
+.offers {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+
+.healthy-food-section {
+    background-image: linear-gradient(to right, #74DCC4, #4597E9);
+}
+
+.healthy-food-section-img {
+    width: 170px;
+}
+
+.healthy-food-section-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.healthy-food-section-description {
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(to top, #FFD000, #FFA700);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.delivery-and-payment-section {
+    background-image: linear-gradient(to right, #74DCC4, #4597E9);
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.last {
+    background-color: #A6A6A6;
+    padding: 50px;
+    background-size: cover;
+}
+
+
+.follow-us-section {
+    background-image: radial-gradient(#EFEFB1);
+    text-align: center;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: black;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+
+}
+
+.loginbackground {
+    height: 100vh;
+    color: white;
+    background-image: radial-gradient(#FFF6B7, #F6146C);
+
+}
+
+
+.thanking-customers-section {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.thanking-customers-section-modal-title {
+    color: #d0b200;
+    font-weight: 800;
+}
+
+.logo3 {
+    height: 50px;
+    width: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.iconcontainer {
+    background-color: #202b36;
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 13px;
+    margin: 7px;
+}
+
+.icon1 {
+    color: #5a7184;
+    font-size: 25px;
+}
+
+.icon2 {
+    color: #5a7184;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.background {
+    background-color: #19232d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding: 5px;
+    color: #5a7184;
+
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.listhead {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.discription1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.line {
+    background-color: #5a7184;
+    font-size: 3px;
+}
+
+.loginbackground2 {
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(16px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.licon1 {
+    font-size: 25px;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: grey;
+}
+
+.licon2 {
+    font-size: 75px;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: grey;
+}
+
+.licon3 {
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: green;
+}
+
+.lvl {
+    border-left: 1px solid grey;
+    margin-left: 12px;
+    margin-right: 12px;
+    height: 70px;
+}
+
+.lbackground1 {
+    background-color: lightgrey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 60px;
+}
+
+.lname {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.lname1 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    text-align: left;
+}
+
+.lline {
+    background-color: grey;
+    font-size: 5px;
+}
+
+.lpost {
+    padding: 20px;
+    width: 450px;
+    border-color: grey;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: lightgrey;
+    color: grey;
+}
+
+.lpostout {
+    margin-top: 20px;
+}
+
+.ltype {
+    text-align: inherit;
+    margin: 5px;
+
+}
+
+.llogo1 {
+    height: 45px;
+    width: 45px;
+    margin-right: 15px;
+}
+
+.lpostimage11 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.lpostimage12 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    height: 150Px;
+}
+
+.lpostimage12back {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://media-exp1.licdn.com/dms/image/C4E22AQGwYIKllZtKEw/feedshare-shrink_2048_1536/0/1658914284064?e=1663200000&v=beta&t=0HtfSFayL9u4ehPFpDKbmf78Z0SG6We183c6lqRz5kI');
+    height: 150Px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.lbuttonicon {
+    border-color: white;
+    background-color: white;
+    font-size: 25px;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: grey;
+    border-style: solid;
+}
+
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%);
+  }
+
+  #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#44006b,#177be6);
+    overflow: hidden;
+  }
+
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#44006b, #177be6);
+    overflow: hidden;
+  }
+
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
+
